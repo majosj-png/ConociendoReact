@@ -81,7 +81,7 @@ export default function useClientesApi() {
     setCargando(true);
     setError(null);
     try {
-      const respuesta = await fetch(`${URL_SE}/${id}`, {
+      const respuesta = await fetch(`${URL_BASE}/${id}`, {
         method: "DELETE",
       });
       if (!respuesta.ok) throw new Error("Error al eliminar el cliente");

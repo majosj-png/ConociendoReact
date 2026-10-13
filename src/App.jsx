@@ -8,7 +8,7 @@ import ClienteList from "./Componets/ClienteList/ClienteList.jsx";
 export default function App() {
   return (
     <>
-      <Titulo texto="Creando mi primera app en Reacttt" />
+      <Titulo texto="Creando mi primera app en React" />
       <TodoCounter totalTodos={5} completedTodos={2} />
 
       <Alumno alumno="Majo" curso="2do año" />
